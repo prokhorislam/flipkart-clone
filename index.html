@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.4.6/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilis.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="img/logo.svg" alt="" width="auto" height="auto"
+          /></a>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            class="searchbar"
+            placeholder="search for products, brands and more"
+          />
+        </div>
+        <ul>
+          <li><button href="home.html">Home</button></li>
+          <li><button href="contact.html">Contact</button></li>
+          <li><button href="about.html">About</button></li>
+        </ul>
+        <button class="buton">Sign In</button>
+      </nav>
+    </header>
+    <main>
+      <div class="starting-tab">
+        <div class="img"><a href="index.html"><img class="startingtab-img" src="img/s1.webp" alt=""></a>
+          <p class="names"><a href="">Grocery</a></p>
+        </div>
+        <div class="img"><a href=""><img class="startingtab-img" src="img/s2.webp" alt=""></a><p class="names"><a href="index.html">Mobiles</a></p>
+        </div>
+        <div class="img"><a href=""><img class="startingtab-img" src="img/s3.webp" alt=""></a> <p class="names"><a href="index.html">Fashion</a></p>
+        </div>
+        <div class="img"><a href=""><img class="startingtab-img" src="img/s4.webp" alt=""></a> <p class="names"><a href="index.html">Electronics</a></p>
+        </div>
+        <div class="img"><a href=""><img class="startingtab-img" src="img/s5.webp" alt=""></a> <p class="names"><a href="index.html">Furniture</a></p>
+        </div>
+        <div class="img"><a href=""><img class="startingtab-img" src="img/s6.webp" alt=""></a> <p class="names"><a href="index.html">Appliences</a></p>
+        </div>
+        <div class="img"><a href=""><img class="startingtab-img" src="img/s7.webp" alt=""></a> <p class="names"><a href="index.html">Travel</a></p>
+        </div>
+        <div class="img"><a href=""><img class="startingtab-img" src="img/s8.webp" alt=""></a> <p class="names"><a href="index.html">Toy & Others</a></p>
+        </div>
+      </div>
+      <div class="carousel w-full" style="margin: 3vh 5vw; width: 90vw;">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="img/carousal1.webp" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="img/caro2.webp" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="img/caro3.webp" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="img/caro4.webp" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+
+        <p class="card-caption">Best Of Electonics</p>
+
+        <div class="card-row">
+          <div class="card-item">
+            <a href=""><img class="card-image" src="img/cart1img1.webp" alt=""></a>
+            <a href=""><p class="item-name">Best Of Televisions</p></a>
+            <a href=""><p class="card-price"><i>From $1,649</i></p></a>
+          </div>
+          <div class="card-item">
+            <a href=""><img class="card-image" src="img/cart1img2.webp" alt=""></a>
+            <a href=""><p class="item-name">Cameras & Lances</p></a>
+            <a href=""><p class="card-price"><i>From $56,500</i></p></a>
+          </div>
+          <div class="card-item">
+            <a href=""><img class="card-image" src="img/cart1img4.webp" alt=""></a>
+            <a href=""><p class="item-name">Keyboards & Mouses</p></a>
+            <a href=""><p class="card-price"><i>From $22</i></p></a>
+          </div>
+          <div class="card-item">
+            <a href=""><img class="card-image" src="img/cart1img3.webp" alt=""></a>
+            <a href=""><p class="item-name">Printers</p></a>
+            <a href=""><p class="card-price"><i>Shop Now !</i></p></a>
+          </div>
+          <div class="card-item">
+            <a href=""><img class="card-image" src="img/cart1img6.webp" alt=""></a>
+            <a href=""><p class="item-name">USB Cables</p></a>
+            <a href=""><p class="card-price"><i>From $10 Only</i></p></a>
+          </div>
+          <div class="card-item">
+            <a href=""><img class="card-image" src="img/cart1img5.webp" alt=""></a>
+            <a href=""><p class="item-name">Hubs & Others</p></a>
+            <a href=""><p class="card-price"><i>From $999</i></p></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="flex-allcenter">
+      <p>copyright &copy; FoldCarts.com</p>
+    </footer>
+  </body>
+</html>
