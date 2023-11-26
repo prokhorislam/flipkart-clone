@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 
 *{
     margin: 0;
@@ -32,8 +35,12 @@ nav ul li a{
 nav ul li button:hover{
 background-color: var(--main-bg-Color);
 color: white;
-border: 5px solid #2874f0;
+border: 6px solid #2874f0;
 border-radius: 5px;
+}
+nav ul li button{
+    border: 6px solid white;
+    border-radius: 5px;
 }
 nav ul li{
     list-style: none;
@@ -87,12 +94,16 @@ main{
     align-items: center;
     width: 90vw;
     background-color: white;
+    gap: 3vw;
 }
 .img{
     margin: auto;
     width: 10vw;
     height: 30vh;
 
+}
+.img .names a:hover{
+    color:#2874f0 ;
 }
 .startingtab-img{
     height: 17vh;
@@ -168,12 +179,44 @@ article{
 }
 .article-content{
     font-size: smaller;
+    cursor: default;
 }
 footer{
     width: 100vw;
-    height: 15vh;
     background-color: black;
-    color: white;
+    font-family: ;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-captions{
+    color: grey;
+    text-align: left;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    cursor: default;
     font-family: 'Montserrat', sans-serif;
+}
+.f-con ul li{
+    color: white;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
     font-size: smaller;
+}
+.f-con ul li:hover{
+    text-decoration: underline;
+}
+.f-p{
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10vh;
+    padding-bottom:3vh ;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    cursor: default;
+}
+hr{
+    color: gray;
 }
