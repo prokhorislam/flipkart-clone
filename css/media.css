@@ -1,0 +1,295 @@
+@media screen and (max-width:900px) and (min-width:700px){
+    .search{
+        display: none;
+    }
+    .starting-tab{
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+        gap: 0vw;
+    }
+    nav ul{
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li button{
+        border: 6px solid white;
+        border-radius: 5px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 2vw;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-right: 9vw;
+    }
+    .buton{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 14vw;
+        height: 9vh;
+        width: 10vw;
+    }
+    .img{
+        margin: auto;
+        width: 10vw;
+        height: 20vh;
+    
+    }
+    .startingtab-img{
+        height: 10vh;
+        width: 6vw;
+    }
+    .names{
+        padding: 1vh 1vw;
+        text-align: center;
+        font-weight:lighter;
+        font-size: smaller;
+    }
+    .card{
+        width: 90vw;
+        height: 70vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vh;
+        margin-bottom: 0;
+        background-color: white;
+        border: 2px solid white;
+        border: radius 0;
+    }
+    .card-row{
+        display: grid;
+        grid-template-columns: 29vw 29vw 29vw;
+        overflow: auto;
+    }
+    .card-item{
+        width: 28vw;
+        border: 0.5px solid #9ba2b354;
+        border-radius: 10px;
+        margin-bottom: 2vh;
+    }
+    .card-caption{
+        padding-top: 4vh;
+        padding-bottom: 6vh;
+        padding-left: 1vw;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .card-image{
+        margin: 10vh auto;
+        height: 14vh;
+        width: 10vw;
+    }
+    .card-price{
+        padding-bottom: 1vh;
+        text-align: center;
+        font-size: smaller;
+        font-weight: bolder;
+    }
+}
+
+
+@media screen and (max-width:700px) and (min-width:550px){
+    .search{
+        display: none;
+    }
+    .starting-tab{
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+        gap: 0vw;
+    }
+    nav ul{
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li button{
+        border: 6px solid white;
+        border-radius: 5px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 2vw;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-right: 6vw;
+    }
+    .buton{
+        margin: auto 9vw;
+        height: 8vh;
+        width: 13vw;
+        font-size: smaller;
+    }
+    .img{
+        margin: auto;
+        width: 10vw;
+        height: 20vh;
+    
+    }
+    .startingtab-img{
+        height: 10vh;
+        width: 6vw;
+    }
+    .names{
+        padding: 1vh 1vw;
+        text-align: center;
+        font-weight:lighter;
+        font-size: smaller;
+    }
+    .card{
+        width: 90vw;
+        height: 70vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vh;
+        margin-bottom: 0;
+        background-color: white;
+        border: 2px solid white;
+        border: radius 0;
+    }
+    .card-row{
+        display: grid;
+        grid-template-columns: 29vw 29vw 29vw;
+        overflow: auto;
+    }
+    .card-item{
+        width: 28vw;
+        border: 0.5px solid #9ba2b354;
+        border-radius: 10px;
+        margin-bottom: 2vh;
+    }
+    .card-caption{
+        padding-top: 4vh;
+        padding-bottom: 6vh;
+        padding-left: 1vw;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .card-image{
+        margin: 10vh auto;
+        height: 14vh;
+        width: 10vw;
+    }
+    .card-price{
+        padding-bottom: 1vh;
+        text-align: center;
+        font-size: smaller;
+        font-weight: bolder;
+    }
+}
+
+
+
+@media screen and (max-width:550px) and (min-width:300px){
+    .search{
+        display: none;
+    }
+    .starting-tab{
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        gap: 0vw;
+    }
+    nav ul{
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li button{
+        border: 6px solid white;
+        border-radius: 5px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 2vw;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-right: 4vw;
+    }
+    .buton{
+        margin: auto 3vw;
+        height: 7vh;
+        width: 18vw;
+    }
+    main{
+        background-color: white;
+    }
+    .img{
+        margin: auto;
+        width: 10vw;
+        height: 20vh;
+    
+    }
+    .startingtab-img{
+        height: 10vh;
+        width: 15vw;
+    }
+    .names{
+        padding: 1vh 1vw;
+        text-align: center;
+        font-weight:lighter;
+        font-size: smaller;
+    }
+    .card{
+        width: 90vw;
+        height: 60vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vh;
+        margin-bottom: 0;
+        background-color: aliceblue;
+        border: 3px solid aliceblue;
+        border-radius: 5px;
+    }
+    .card-row{
+        display: grid;
+        grid-template-columns: auto auto;
+        overflow: auto;
+    }
+    .card-item{
+        width: 38vw;
+        border: 0.5px solid #9ba2b354;
+        border-radius: 10px;
+        margin-bottom: 2vh;
+        background-color: white;
+    }
+    .card-caption{
+        padding-top: 4vh;
+        padding-bottom: 6vh;
+        padding-left: 1vw;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .card-image{
+        margin: 6vh auto;
+        height: 14vh;
+        width: 15vw;
+    }
+    .card-price{
+        padding-bottom: 1vh;
+        text-align: center;
+        font-size: smaller;
+        font-weight: bolder;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+    .footer-captions{
+        color: grey;
+        text-align: left;
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+        cursor: default;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
