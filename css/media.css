@@ -134,17 +134,18 @@
     }
     .startingtab-img{
         height: 10vh;
-        width: 6vw;
+        width: 9vw;
     }
     .names{
         padding: 1vh 1vw;
         text-align: center;
         font-weight:lighter;
         font-size: smaller;
+        gap: 1;
     }
     .card{
         width: 90vw;
-        height: 70vh;
+        height: 60vh;
         margin-left: auto;
         margin-right: auto;
         margin-top: 4vh;
@@ -155,7 +156,7 @@
     }
     .card-row{
         display: grid;
-        grid-template-columns: 29vw 29vw 29vw;
+        grid-template-columns: 28vw 28vw 28vw;
         overflow: auto;
     }
     .card-item{
@@ -168,13 +169,13 @@
         padding-top: 4vh;
         padding-bottom: 6vh;
         padding-left: 1vw;
-        font-size: larger;
+        font-size: medium;
         font-weight: bolder;
     }
     .card-image{
-        margin: 10vh auto;
+        margin: 9vh auto;
         height: 14vh;
-        width: 10vw;
+        width: 14vw;
     }
     .card-price{
         padding-bottom: 1vh;
