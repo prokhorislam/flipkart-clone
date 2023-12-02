@@ -10,6 +10,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 header{
     width: 100%;
     font-family: 'Lato', sans-serif;
