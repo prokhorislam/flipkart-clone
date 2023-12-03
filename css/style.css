@@ -115,9 +115,9 @@ main{
     padding: 0 1.5vw;
     text-align: center;
 }
-.carousal{
+.carousel{
     width: 90vw;
-    margin: auto;
+    margin: 1px 5vw 1px 5vw;
 }
 .card{
     width: 90vw;
@@ -171,7 +171,7 @@ article{
     font-family: 'Rubik', sans-serif;
     background-color: white;
     width: 100vw;
-    padding: 3vh;
+    padding: 3vh 4vw;
 }
 .articles{
     display: grid;
